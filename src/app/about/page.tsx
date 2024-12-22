@@ -10,7 +10,7 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center py-12 bg-white px-6">
+    <div className="min-h-screen flex flex-col items-center justify-center py-5 bg-white px-6">
       <h1 className="md:text-4xl text-2xl font-bold text-gray-800 mb-6">About</h1>
       <p className="text-gray-600 md:text-lg text-sm text-center max-w-3xl mb-12">
         SynThink is a decentralized platform that secures research files using Web 3 technology. 

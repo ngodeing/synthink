@@ -116,7 +116,7 @@ const HeroSection = () => {
           transition={{ duration: 0.7 }}
         >
           <Image
-            src="/images/illustration.png"
+            src="/images/ilustrasi.png"
             alt="Illustration"
             width={400}
             height={400}
