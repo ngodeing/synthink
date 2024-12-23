@@ -9,7 +9,7 @@ const Contact = () => {
         <p className="text-gray-600 text-lg mb-6">Get in touch with us!</p>
         <div className="space-y-2">
           <p className="text-gray-800">
-            Email: <a href="mailto:contact@synthink.com" className="text-red-500 hover:underline">onlytaufik47@gmail.com</a>
+            Email: <a href="mailto:onlytaufik47@gmail.com" className="text-red-500 hover:underline">onlytaufik47@gmail.com</a>
           </p>
           <p className="text-gray-800">
             GitHub:{" "}

@@ -9,8 +9,8 @@ const Demo = () => {
         <video
           className="w-full rounded-lg shadow-md"
           controls
-          src="videos/sample.mp4"
-          poster="videos/sample.mp4"
+          src="videos/demo_synthink.mp4"
+          poster="videos/demo_synthink.mp4"
         >
           Your browser does not support the video tag.
         </video>

@@ -112,7 +112,7 @@ const UploadJournal = () => {
                 id="title"
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
-                className="mt-1 p-2 w-full border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-1 text-black p-2 w-full border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
                 />
             </div>
@@ -125,7 +125,7 @@ const UploadJournal = () => {
                 id="description"
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
-                className="mt-1 p-2 w-full border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-1 p-2 w-full border text-black rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                 rows={4}
                 required
                 ></textarea>
