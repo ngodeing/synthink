@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const HeroSection = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -100,13 +101,16 @@ const HeroSection = () => {
             We provide decentralized solutions to secure your journal and
             research files. Empower your work with the power of Web 3.
           </p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-red-500 text-white font-semibold px-4 lg:px-6 py-2 lg:py-3 rounded-lg shadow-md hover:bg-red-600 transition"
-          >
-            Learn More
-          </motion.button>
+          <Link href="/learn-more">
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-red-500 text-white font-semibold px-4 lg:px-6 py-2 lg:py-3 rounded-lg shadow-md hover:bg-red-600 transition"
+            >
+              Learn More
+            </motion.button>
+          </Link>
+          
         </motion.div>
 
         <motion.div
